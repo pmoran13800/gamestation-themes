@@ -1,0 +1,92 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+<view name="system, basic, detailed">
+	<image name="background" extra="true">
+		<color>35495EFF</color>
+	</image>
+</view>
+	
+<view name="system">
+	 
+
+	<image name="background4" extra="true">
+		<color>F8F8F8CC</color>
+	</image> 
+	
+	<image name="background2" extra="true">
+		<color>CCCCCDFF</color>
+	</image>
+	
+	<image name="background3" extra="true">
+		<color>2A4055</color>
+	</image>
+	
+	<text name="systemInfo">
+		<color>F0F0F0FF</color>
+	</text>
+	 
+</view>
+
+<view name="basic, detailed">
+
+	 <image name="bg2" extra="true">
+		<color>D0D0FFFF</color>
+	 </image> 
+	 
+	  <image name="bg3" extra="true">
+		<color>2A4055</color>
+	 </image> 
+	 
+	<textlist name="gamelist">
+		<selectorColor>719CC6</selectorColor>
+		<selectedColor>719CC6</selectedColor>
+		<primaryColor>dee0e8</primaryColor>
+		<secondaryColor>eac428</secondaryColor>
+	</textlist>
+ 
+</view>
+
+<view name="detailed">
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>25282FFF</color>
+	</datetime>
+		
+	<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
+		<color>25282FFF</color>
+	</text>
+ 
+</view>
+
+  
+
+
+<view name="system, menu, basic, detailed">
+	<helpsystem name="help">
+		<textColor>F0F0F0FF</textColor>
+	</helpsystem>	
+</view>
+
+<view name="menu">
+		<menuText name="menufooter">
+			<color>808080FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<color>FFFFFF</color>
+			<separatorColor>20232C</separatorColor>
+			<selectorColor>2A4055F0</selectorColor>
+			<selectedColor>719CC6</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<color>FFFFFF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<color>FFFFFF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>2A4055F0</color>
+		</menuBackground>
+	</view>
+	
+</theme>

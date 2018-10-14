@@ -1,0 +1,19 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontSize>0.025</fontSize>
+		</menuText>
+		<menuText name="menutext">
+			<fontSize>0.035</fontSize>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontSize>0.028</fontSize>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontSize>0.04</fontSize>
+		</menuText>
+	</view>
+	
+</theme>

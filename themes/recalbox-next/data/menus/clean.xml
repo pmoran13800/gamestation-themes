@@ -1,0 +1,33 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontPath>./../arts/Raleway-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>777777FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./../arts/OpenSans-CondLight.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>262626FF</color>
+			<separatorColor>262626FF</separatorColor>
+			<selectorColor>262626CC</selectorColor>
+			<selectedColor>FFFFFFCC</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./../arts/OpenSans-CondLight.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<color>262626FF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./../arts/Raleway-Bold.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>555555FF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>FFFFFFCC</color>
+		</menuBackground>
+	</view>
+	
+</theme>

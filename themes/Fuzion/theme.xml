@@ -1,0 +1,219 @@
+<!--
+theme name:     Fuzion
+author:     Supernature2k    
+Based on work by: Nico La Rosa - Chicuelo - Arcades & Design (theme retropie Chicuelo)
+and	visuals from retropie theme Steampunk by dmmarti				
+-->
+
+<theme>
+<formatVersion>4</formatVersion>
+
+<include>./config.xml</include>
+
+<view name="menu">
+	<menuText name="menufooter">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.025</fontSize>
+	</menuText>
+	<menuText name="menutext">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+	</menuText>
+	<menuBackground name="menubg">
+		<path>./assets/back.png</path>
+		<fadePath>./assets/fade.png</fadePath>
+	</menuBackground>
+	<helpsystem name="help">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<pos>0.355 0.94</pos>
+	</helpsystem>
+</view>
+
+<view name="system, basic, detailed">
+
+	<image name="background" extra="true">
+		<tile>true</tile>
+		<path>./assets/square.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+	</image>
+	
+	<image name="logo">
+		<path>./assets/logos/$system.svg</path>
+	</image>
+ 
+</view>
+
+
+
+<!-- Gamelist View -->
+
+<view name="basic">
+	 
+	<image name="bg3" extra="true">
+		<tile>false</tile>
+		<path>./assets/gamelist.png</path>
+		<origin>0.5 0.5</origin>
+		<size>0.5 0.8</size>
+		<pos>0.5 0.5</pos>
+	</image>
+
+	<image name="logo">
+		<origin>0.5 0.5</origin>
+		<pos>0.125 0.5</pos>
+		<maxSize>0.185 0.185</maxSize>
+	</image>
+	 
+	<textlist name="gamelist">
+		<selectorImagePath>./assets/icon.png</selectorImagePath>
+		<selectorHeight>.05</selectorHeight>
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<alignment>left</alignment>
+		<forceUppercase>1</forceUppercase>
+		<pos>0.3 0.165</pos>
+		<size>0.4 0.68</size>
+		<fontSize>0.03</fontSize>
+		<lineSpacing>1.49</lineSpacing>
+		<horizontalMargin>0.05</horizontalMargin>
+	</textlist>
+
+	<helpsystem name="help">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<pos>0.05 0.94</pos>
+	</helpsystem>
+	
+</view>
+
+<view name="detailed">
+	 
+	<image name="bg2" extra="true">
+		<tile>true</tile>
+		<path>./assets/square.png</path>
+		<size>0.9 0.86</size>
+		<pos>0.05 0.07</pos>
+	</image>
+	 
+	<image name="bg3" extra="true">
+		<tile>false</tile>
+		<path>./assets/gamelist.png</path>
+		<size>0.348 0.9</size>
+		<pos>0.093 0.046</pos>
+	</image>
+
+	<image name="logo">
+		<origin>0.5 0.5</origin>
+		<pos>0.555 0.825</pos>
+		<maxSize>0.185 0.185</maxSize>
+	</image>
+
+
+
+	<image name="md_image">
+		<origin>0.5 0.5</origin>
+		<pos>0.7 0.4</pos>
+		<maxSize>0.51 0.51</maxSize>
+	</image>
+	 
+	<textlist name="gamelist">
+		<selectorImagePath>./assets/icon.png</selectorImagePath>
+		<selectorHeight>.05</selectorHeight>
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<alignment>left</alignment>
+		<forceUppercase>1</forceUppercase>
+		<pos>0.07 0.122</pos>
+		<size>0.34 0.75</size>
+		<fontSize>0.03</fontSize>
+		<lineSpacing>1.675</lineSpacing>
+		<horizontalMargin>0.05</horizontalMargin>
+	</textlist>
+
+	<helpsystem name="help">
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<pos>0.445 0.94</pos>
+	</helpsystem>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<forceUppercase>1</forceUppercase>
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.02</fontSize>
+		<size>0 0.02</size>
+	</datetime>
+		
+	<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
+		<forceUppercase>1</forceUppercase>
+		<fontPath>./assets/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.02</fontSize>
+		<size>0.144 0.02</size>
+	</text>
+	
+	<text name="md_lbl_releasedate">
+		<pos>0.675 0.76</pos>
+	</text>		
+	<datetime name="md_releasedate">
+		<pos>0.69 0.78</pos>			
+	</datetime>		
+		
+	<text name="md_lbl_developer">
+		<pos>0.675 0.80</pos>
+	</text>		
+	<text name="md_developer">
+		<pos>0.69 0.82</pos>
+	</text>
+	
+	<text name="md_lbl_publisher">
+		<pos>0.675 0.84</pos>
+	</text>		
+	<text name="md_publisher">
+		<pos>0.69 0.86</pos>
+	</text>		
+		
+	<text name="md_lbl_genre">
+		<pos>0.675 0.88</pos>
+	</text>		
+	<text name="md_genre">
+		<pos>0.69 0.90</pos>
+	</text>		
+	
+	<text name="md_lbl_players">
+		<pos>0.830 0.76</pos>
+	</text>		
+	<text name="md_players">
+		<pos>0.845 0.78</pos>
+	</text>		
+
+	<text name="md_lbl_lastplayed">
+		<pos>0.830 0.80</pos>
+	</text>
+	<datetime name="md_lastplayed">
+		<pos>0.845 0.82</pos>
+	</datetime>
+	
+	<text name="md_lbl_playcount">
+		<pos>0.830 0.84</pos>
+	</text>
+	<text name="md_playcount">
+		<pos>0.845 0.86</pos>
+	</text>
+
+	<text name="md_lbl_favorite">
+		<pos>0.830 0.88</pos>
+	</text>
+	<text name="md_favorite">
+		<pos>0.845 0.90</pos>
+	</text>
+
+</view>
+
+</theme>

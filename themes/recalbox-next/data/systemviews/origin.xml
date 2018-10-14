@@ -1,0 +1,71 @@
+<theme>
+	<formatVersion>4</formatVersion>	
+	
+	<feature supported="carousel">
+  
+	<view name="system">
+
+		<carousel name="systemcarousel">
+			<color>ffffffd8</color>
+		</carousel>
+
+		<text name="systemInfo">
+			<backgroundColor>DDDDDDD8</backgroundColor>
+		</text>
+
+	</view>
+
+	</feature>
+	
+	<view name="system">
+		
+		<image name="consolegame" extra="true">
+			<pos>0.02 0.30</pos>
+			<maxSize>0.4 0.25</maxSize>
+			<origin>0 1</origin>
+		</image>
+		<image name="controller" extra="true">
+			<pos>0.78 0.30</pos>
+			<maxSize>0.15 0.25</maxSize>
+			<origin>1 1</origin>
+		</image>
+		
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="false">
+			<size>0.44 0.02</size>
+		</text>
+		
+		<text name="info1" extra="true">
+			<pos>0.36 0.72</pos>
+		</text>
+		<text name="info2" extra="true">
+			<pos>0.36 0.74</pos>
+		</text>
+		<text name="info3" extra="true">
+			<pos>0.36 0.76</pos>
+		</text>
+		<text name="info4" extra="true">
+			<pos>0.36 0.78</pos>
+		</text>
+		<text name="info5" extra="true">
+			<pos>0.36 0.82</pos>
+		</text>
+		<text name="info6" extra="true">
+			<pos>0.36 0.84</pos>
+		</text>
+		<text name="info7" extra="true">
+			<pos>0.36 0.86</pos>
+		</text>
+		<text name="info8" extra="true">
+			<pos>0.36 0.88</pos>
+		</text>
+		<text name="info9" extra="true">
+			<pos>0.36 0.90</pos>
+		</text>
+		<text name="info10" extra="true">
+			<pos>0.36 0.92</pos>
+		</text>
+		
+	</view>
+	
+	
+</theme>
